@@ -1,0 +1,3 @@
+[console_scripts]
+VD-even = games_project_bolzhatov.VDgames.scripts.vd_even:main
+VD_games = games_project_bolzhatov.VDgames.scripts.vd_main:main

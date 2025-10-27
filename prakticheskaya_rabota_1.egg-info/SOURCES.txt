@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+games_project_bolzhatov/__init__.py
+games_project_bolzhatov/VDgames/__init__.py
+games_project_bolzhatov/VDgames/cli.py
+games_project_bolzhatov/VDgames/vd_main.py
+games_project_bolzhatov/VDgames/scripts/__init__.py
+games_project_bolzhatov/VDgames/scripts/vd_even.py
+games_project_bolzhatov/VDgames/scripts/vd_games.py
+games_project_bolzhatov/VDgames/scripts/vd_main.py
+prakticheskaya_rabota_1.egg-info/PKG-INFO
+prakticheskaya_rabota_1.egg-info/SOURCES.txt
+prakticheskaya_rabota_1.egg-info/dependency_links.txt
+prakticheskaya_rabota_1.egg-info/entry_points.txt
+prakticheskaya_rabota_1.egg-info/requires.txt
+prakticheskaya_rabota_1.egg-info/top_level.txt
