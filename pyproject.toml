@@ -1,33 +1,15 @@
-[project]
-name = "prakticheskaya-rabota-1"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "prompt>=0.4.1",
-]
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
+[project]
+name = "games-project-bolzhatov"
+version = "0.1.0"
+description = "Практическая работа по разработке игр"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
 
 [project.scripts]
-VD_games = "games_project_bolzhatov.VDgames.scripts.vd_main:main"
-VD-even = "games_project_bolzhatov.VDgames.scripts.vd_even:main"
-
-[tool.uv]
-package = true
-
-[dependency-groups]
-dev = [
-    "ruff>=0.14.2",
-]
-
-[tool.ruff]
-line-length = 100
-target-version = "py312"
-
-[tool.ruff.lint]
-select = ["E", "W", "F", "N", "SIM"]
-ignore = ["E501"]
-
-
-
+brain-calc = "scripts.brain_calc:main"
+brain-gcd = "scripts.brain_gcd:main"
